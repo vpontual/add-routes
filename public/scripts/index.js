@@ -125,8 +125,8 @@ const showErrors = (errorObj) => {
 const submitDiagnostics = (submissionObj) => {
   // TODO: your code here
   const formData = new FormData();
-  formData.append("tip", submissionObj.username);
-  formData.append("username", submissionObj.program_name);
+  formData.append("tip", submissionObj.tip);
+  formData.append("username", submissionObj.username);
   console.info(
     "⚠️ Create the logic for the fetch POST request in scripts/index.js"
   );
